@@ -16,8 +16,7 @@ Refrences used:
 - NEWS API: https://newsapi.org/
 
 ## Usage
-Homepage displays all the latest posts from all news sources. User can search and bookmark (and view the bookmarks) article.
-Filtering based on country, source and/or date.
+Run ```npm install``` in both client/ and server/ folder
 
 Running clientside: ```npm run start``` in the client folder.
 Running serverside: ```npm run start``` in the server folder.
