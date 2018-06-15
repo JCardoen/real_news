@@ -6,7 +6,7 @@
 					<v-header></v-header>
 				</v-flex>
 				<v-flex xs12 md2>
-					<v-select :items="categories" v-model="selectedCategory" label="Select" single-line>
+					<v-select :items="categories" v-model="selectedCategory" label="Select Category" single-line>
 					</v-select>
 				</v-flex>
 				<v-spacer></v-spacer>
@@ -19,8 +19,8 @@
 						<v-card-title primary-title>
 							<div>
 								<h3 class="headline mb-0">{{ source.name}}</h3>
-								<span class="grey--text">{{ source.language }}</span><br>
-								<span class="grey--text">{{ source.country }}</span><br>
+								<span class="grey--text">Language Code: {{ source.language }}</span><br>
+								<span class="grey--text">Country Code: {{ source.country }}</span><br>
 								<div>{{ source.description }}</div>
 							</div>
 						</v-card-title>

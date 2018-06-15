@@ -10,7 +10,7 @@
 					<h1>International news</h1>
 				</v-flex>
 				<v-flex xs12 md3>
-					<v-text-field type="text" label="Filter items" v-model='search'></v-text-field>
+					<v-text-field type="text" label="Filter items based on text" v-model='search'></v-text-field>
 				</v-flex>
 				<v-spacer></v-spacer>
 				<v-newsgrid v-if='articles' :articles='filteredArticles' :handler='handler'></v-newsgrid>

@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const BASE_URL = 'http://localhost:8081'
+const BASE_URL = 'http://localhost:8080'
 
 export default {
 	async bookmarkArticle(article) {
