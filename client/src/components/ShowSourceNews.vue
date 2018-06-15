@@ -37,7 +37,6 @@
 			return {
 				source: '',
 				search: '',
-				// Countries ty https://gist.github.com/incredimike/1469814
 				filteredArticles: [],
 				articles: []
 			};

@@ -10,7 +10,7 @@ app.use(morgan('combined'))
 app.use(bodyParser.json())
 app.use(cors())
 
-mongoose.connect('mongodb://localhost/articles');
+mongoose.connect('mongodb://cs:test123@ds161520.mlab.com:61520/realnews');
 
 let db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error'));
