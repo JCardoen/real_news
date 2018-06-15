@@ -4,7 +4,7 @@
 			<v-flex xs12 md3 :key="country" v-for="country in countries" m5>
 				<v-card>
 					<v-card-title>
-						<h2>{{ country }}</h2>
+						<h2>{{ country | capslock }}</h2>
 					</v-card-title>
 					<v-card-actions>
 						<v-btn :country="country" v-on:click="showNewsFromCountry($event)" flat>View news</v-btn>

@@ -10,7 +10,7 @@ app.use(morgan('combined'))
 app.use(bodyParser.json())
 app.use(cors())
 
-mongoose.connect('mongodb://cs:test123@ds161520.mlab.com:61520/realnews');
+mongoose.connect('mongodb://localhost/articles');
 
 let db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error'));
@@ -62,4 +62,4 @@ app.get('/local/articles', (req, res) => {
     })
 })
 
-app.listen(process.env.PORT || 8080)
+app.listen(process.env.PORT || 8081)

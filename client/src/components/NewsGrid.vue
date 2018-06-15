@@ -7,7 +7,7 @@
 						<v-container fill-height fluid>
 							<v-layout fill-height>
 								<v-flex xs12 align-end flexbox>
-									<span class="headline">{{ article.title }}</span>
+									<span class="headline">{{ article.title | capitalize }}</span>
 								</v-flex>
 							</v-layout>
 						</v-container>
