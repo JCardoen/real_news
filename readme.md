@@ -18,8 +18,8 @@ Refrences used:
 ## Usage
 Run ```npm install``` in both client/ and server/ folder
 
+Running serverside (do this first if you want to make use of local MongoDB): ```npm run start``` in the server folder.
 Running clientside: ```npm run start``` in the client folder.
-Running serverside: ```npm run start``` in the server folder.
 
 ## Features
 - Displaying 20 newest articles from a certain country
